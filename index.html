@@ -3,46 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Звіт з дисципліни "Web-дизайн"</title>
 </head>
-<body>
+<body class="body">
     
-    <header>
-        <div>
-            <center>
-                <img src="photo.plus.png" height="150" width="150" alt="">
-                <h1>Близнюк Даниіл Євгенович</h1>
-                <p>Звіт з дисципліни "Web-дизайн"</p>
-            </center>
+    <header> 
+        <div class="top">
+            <img class="main-image" src="photo.plus.png" height="150" width="150" alt="">
+            <h1 class="Name">Близнюк Даниіл Євгенович</h1>
+            <p class="main-text">Звіт з дисципліни "Web-дизайн"</p>
+
         </div>
 
     </header>
-    <hr>
 
-    <main>
+    <main class="main">
         <div>
-            <section>
-                <h2>Про мене</h2>
-                <p>Навчаюся у КМРФ ДУІТ на 3 курсі з професії "Інженерія програмного забезпечення". Живу на Оболоні(м.Київ). </p>
-            </section>
+            <article class="article">
+                <h2 class="article-header">Про мене</h2>
+                <p class="article-text">Навчаюся у КМРФ ДУІТ на 3 курсі з професії "Інженерія програмного забезпечення". Живу на Оболоні(м.Київ). </p>
+            </article>
         </div>
 
         <div>
-            <section>
-                <h2>Конспект за темами</h2>
-                <ul>
-                    <li>HTML</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Bootstrap</li>
+            <article class="article">
+                <h2 class="article-header">Конспект за темами</h2>
+                
+                <ul class="article-text">
+                    <li class="list-el">HTML</li>
+                    <li class="list-el">CSS</li>
+                    <li class="list-el">JavaScript</li>
+                    <li class="list-el">Bootstrap</li>
                 </ul>
-            </section>
+            </article>
         </div>
 
         <div>
-            <section>
-               <h2>Лабораторні роботи</h2>
-               <ol>
+            <article class="article">
+               <h2 class="article-header">Лабораторні роботи</h2>
+               <ol class="article-text">
                 <a href="https://github.com/danka2204/For_Cherto4ka/blob/master/name.txt">
                     <li>Налаштування Git та GitHub</li>
                 </a>
@@ -56,11 +56,9 @@
                     <li>Семантична верстка сторінки</li>
                 </a>
                </ol>
-            </section>
+            </article>
         </div>
     </main>
-
-    <hr>
 
     <footer>
 
