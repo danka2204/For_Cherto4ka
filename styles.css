@@ -35,12 +35,21 @@
   box-shadow: 1px 1px 5px black;
   margin-top: 31px;
   margin-left: 100px;
+  margin-right: 100px;
   font-family: Arial, Helvetica, sans-serif;
   color: #445161;
+  padding-bottom: 50px;
+}
+
+.main {
+  margin-bottom: 80px;
+  margin-top: 80px;
 }
 
 .article-header {
   font-size: 30px;
+  padding-left: 20px;
+  padding-top: 20px;
 }
 
 .article-text {
@@ -48,6 +57,66 @@
   font-size: 16px;
   padding-left: 0px;
 }
+
 .ul {
-  list-style-image: url(../For_Cherto4ka/galochka.png);
+  font-size: 16px;
+  padding-left: 50px;
+}
+ul {
+  list-style: none;
+}
+.li-ul:before {
+  content: "✓";
+}
+
+.all-footer {
+  padding-bottom: 50px;
+}
+
+.footer {
+  background-color: #445162;
+  color: #ffffff;
+  margin: 0 -25px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.kontakts {
+  padding-top: 50px;
+  padding-left: 100px;
+  font-size: 30px;
+}
+
+.foot-elem {
+  padding-left: 5px;
+}
+
+.contakts {
+  padding-left: 265px;
+}
+
+.copyright {
+  color: #373737;
+  margin: 5px 10px;
+  text-align: center;
+  font-size: 12;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tel {
+  background: url(phone-ico@1X.png) no-repeat 0 5px;
+  padding: 7px 0px 7px 28px;
+}
+
+.mail {
+  background: url(mail-ico@1X.png) no-repeat 0 5px;
+  padding: 7px 0px 7px 28px;
+}
+
+.git {
+  background: url(github-ico@1X.png) no-repeat 0 5px;
+  padding: 7px 0px 7px 28px;
 }
