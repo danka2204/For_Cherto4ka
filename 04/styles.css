@@ -1,0 +1,82 @@
+.bodys {
+  background-color: #e1ddd3;
+}
+.top {
+  height: 208;
+}
+.main_image {
+  vertical-align: middle;
+  width: 150px;
+  height: 86px;
+  margin: 35px 30px 30px 244px;
+  display: inline-block;
+}
+.image {
+  width: 300px;
+  height: 200px;
+  margin: 0px 18px 0px 52px;
+  display: inline-block;
+  vertical-align: top;
+}
+.main_block {
+  background-color: white;
+  margin: 19px 220px 268px 220px;
+  width: 1000px;
+  height: 480px;
+}
+.list-menu {
+  background-color: #cdbb82;
+  padding: 0px;
+  width: 1000px;
+  height: 50px;
+  margin: 0px 220px;
+  list-style-type: none;
+  font-size: 20px;
+}
+.tittle {
+  vertical-align: middle;
+  display: inline-block;
+  height: 208;
+  font-size: 60px;
+  margin: 0px 279px 0px 0px;
+  text-align: center;
+}
+.p1 {
+  display: inline-block;
+  vertical-align: text-top;
+  font-size: 16px;
+  margin-top: 0px;
+}
+.li1 {
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+  margin: 10px 0px;
+}
+.tittle2 {
+  font-size: 36px;
+  display: inline-block;
+  margin: 29px 517px 29px 65px;
+}
+.small {
+  width: 580px;
+  height: 208px;
+  vertical-align: top;
+  display: inline-block;
+}
+.big {
+  width: 900px;
+  height: 145px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.list-elem {
+  display: inline-block;
+  width: 330px;
+  height: 50px;
+  text-align: center;
+}
+.list-elem:hover {
+  background-color: #91865a;
+  color: rgb(96, 83, 184);
+}
