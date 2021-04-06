@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(254, 252, 254);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        .Form{
+            background-color: rgb(247, 241, 239);
+            width: 1000px;
+            margin: auto;
+        }
+        .kra{
+            float: left;
+        }
+        fieldset{
+             border: #91e2d9 2px solid;
+            border-radius: 5px;
+            font-size: 18px;
+            color: #91e2d9;
+            
+        }
+        .tpole1{
+            float: left;
+            width: 350px;
+        }
+        h1{
+            width: 1000px;
+            margin: auto;
+            color: rgb(98, 29, 0);
+        }
+        .pole{
+        width: 250px;
+        }
+        p{
+            color: rgb(98, 29, 0);
+        }
+        .qst{
+            font-weight: bold;
+            color: rgb(98, 29, 0);
+        }
+        select{
+        width: 125px;
+        }
+        .tbutton{
+            background: linear-gradient(#f4f7ed, #91e2d9);
+            border-radius: 5px;
+            border: #91e2d9 2px solid;
+            color: rgb(98, 29, 0);
+            font-size: 18px;
+            width: 150px;
+            height: 50px;
+            margin-top: 15px;
+            margin-left: 288px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Анкета посетителя ресторана</h1>
+    <form action="#">
+        <fieldset class="Form">
+        <legend>Контактная информация </legend>
+        <p><label class="tpole1" for="in1">Имя </label><label for="in1"> <input type="text" class="pole" name="name" id="in1"></p>
+        <p><label class="tpole1" for="in2">Телефон</label><input type="tel" class="pole" name="phone" id="in2"></p>
+        <p><label class="tpole1" for="in3">Email</label><input type="email" class="pole" name="mail" id="in3"></p>
+        <p><label class="tpole1" for="in4">Дата посещения</label><input type="date" class="pole" name="Date" id="in4"></p>
+        </fieldset>
+    </form>
+    
+    <form action="#">
+        <fieldset class="Form">
+            <legend>Персональная информация </legend>
+            <p><label class="tpole1" for="in5">Возраст </label> <input type="number" class="pole" name="name"id="in5"></p></label>
+            <p><label for="kuhnya" class="tpole1">Любимая кухня</label></p>
+            <select id="kuhnya">
+                <option value="rus">Русская</option>
+                <option value="jp">Японская</option>
+                <option value="fr">Французкая</option>
+                <option value="ital">Итальянская</option>
+            </select>
+            <p><label for="in6" class="tpole1">Какие блюда вы хотели бы увидеть в меню?</label></p>
+            <textarea name="blyuda" id="in6" cols="30" rows="10" class="pole"></textarea>
+        </fieldset>
+    </form>
+
+    <form action="#">
+        <fieldset class="Form">
+            <legend>Оценка нашего заведения </legend>
+                <p class="qst">Почему вы выбрали наше заведение?</p>
+                <p><input type="radio" name="rad1" id="first" value="1"><label for="first">Недалеко от дома/работы</label></p>
+                <p><input type="radio" name="rad1" id="second" value="2"><label for="second">Увидел рекламу</label></p>
+                <p><input type="radio" name="rad1" id="third" value="3"><label for="third">Посоветовали</label></p>
+                <p><input type="radio" name="rad1" id="fourth" value="4"><label for="fourth">Оптимальное соотношение цены икачества</label></p>
+                <p class="qst">Вы будете рекомендовать наше заведение?</p>
+                <p><input type="radio" name="rad2" id="first2" value="1"><label for="first2">Да</label></p>
+                <p><input type="radio" name="rad2" id="second2" value="2"><label for="second2">Нет</label></p>
+            </fieldset>
+            <input type="submit" class="tbutton" value="Отправить">
+    </form>
+</body>
+</html>

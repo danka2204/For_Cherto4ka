@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+        .pole{
+             border-radius: 5px;
+             border: solid rgb(202, 201, 201);
+        }
+        .pole2{
+             border-radius: 5px;
+             border: solid rgb(202, 201, 201);
+             margin: 15px;
+             display: block;
+        }
+        .left_button{
+            margin: 15px;
+
+        }
+        .button{
+            border-radius: 8px;
+        }
+        .kra{
+            float: left;
+        }
+        .kra2{
+            clear: both;
+        }
+        .end{
+            background-color: lightgray;
+        }
+    </style>
+</head>
+<body>
+    <form action="#" method="POST" autocomplete="off">
+        <div class="kra">
+            <p><label for="in1">Введіть своє ім'я </label></p>
+            <p><label for="in2">Пароль</label></p>
+            <p><label for="in3">Дата народження</label></p>
+            <p><label for="in4">Номер</label></p>
+            <p><label for="in5">Електронна пошта</label></p>
+            <p><label for="in6">range</label></p>
+            <p><label for="in7">colour</label></p>
+            <p><label for="in8">hid</p>
+            <p><label for="in9">Телефон</label></p>
+            <p><label for="in10">Пошук</label></p>
+            <p><label for="in11">Datetime</label></p>
+            <p><label for="in12">datetime</label></p>
+            <p><label for="in13">url</label></p>
+        </div>
+        <div class="kra">
+            <p><label for="in1">Введіть своє ім'я <input type="text" class="pole" name="name" id="in1" placeholder="Ім'я">
+            </p>
+            <p><input type="password" class="pole" name="pass" id="in2" placeholder="Пароль"></p>
+            <p><input type="date" class="pole" name="birth_date" id="in3"></p>
+            <p><input type="number" class="pole" name="count" placeholder="Номер" id="in4"></p>
+            <p><input type="email" class="pole" name="mail" id="in5" placeholder="Електронна пошта"></p>
+            <p><input type="range" class="pole" name="range" id="in6"></p>
+            <p><input type="color" class="pole" name="colour" id="in7"></p>
+            <p><input type="hidden" class="pole" name="hid" id="in8"></p>
+            <p><input type="tel" class="pole" name="phone" id="in9" placeholder="Телефон"></p>
+            <p><input type="search" class="pole" name="search" id="in10" placeholder="Пошук"> </p>
+            <p><input type="datetime" class="pole" name="datetime" id="in11" placeholder="Datetime"></p>
+            <p><input type="time" class="pole" id="in12" name="datetime"></p>
+            <p><textarea name="comments" class="pole" id="0" id="in1" cols="30" rows="10">Ваші коментарії:</textarea></p>
+            <p><input type="url" class="pole" name="datetime" id="in13" value="http/"></p>
+            <p><input type="submit" class="left_button button" value="Зберегти">
+            <p><input type="reset" class="button" value="Очистити">
+
+        </div>
+    </form>
+    <hr>
+    <form class="kra2" action="#">
+        <p><Label for="radio1"><input type="radio" id="radio1" name="day" value="1">Понеділок</Label></p>
+        <p><input type="radio" name="day" value="2" checked>Вівторок </p>
+        <p><input type="radio" name="day" value="3">Середа </p>
+        <p><input type="radio" name="day" value="4">Четвер</p>
+        <p><input type="radio" name="day" value="5">П'ятниця</p>
+        <p><input type="radio" name="day" value="6">Субота</p>
+        <p><input type="radio" name="day" value="7">Неділя</p>
+        <input type="submit" value="Зберегти">
+        <input type="reset" value="Очистити">
+    </form>
+    <hr>
+    <form action="#">
+            <p><input type="checkbox" name="day" value="1">Понеділок</p>
+            <p><input type="checkbox" name="day" value="2" checked>Вівторок </p>
+            <p><input type="checkbox" name="day" value="3">Середа </p>
+            <p><input type="checkbox" name="day" value="4">Четвер</p>
+            <p><input type="checkbox" name="day" value="5">П'ятниця</p>
+            <p><input type="checkbox" name="day" value="6">Субота</p>
+            <p><input type="checkbox" name="day" value="7">Неділя</p>
+            <input type="submit" value="Зберегти">
+            <input type="reset" value="Очистити">
+    </form>
+    <hr>
+    <form action="#">
+        <select name="day">
+            <option value="1">Понеділок</option>
+            <option value="2">Вівторок</option>
+            <option value="3">Середа</option>
+            <option value="4">Четвер</option>
+            <option value="5">П'ятниця</option>
+            <option value="6">Субота</option>
+            <option value="7">Неділя</option>
+            <input type="submit" value="Зберегти">
+            <input type="reset" value="Очистити">
+        </select>
+    </form>
+    <hr>
+    <form action="#">
+        <input type="text" name="login">
+        <button>
+            Відправити на <strong>сервер</strong>
+        </button>
+
+    </form>
+    <form action="#"> 
+        <fieldset class="end">
+            <legend>Вход в систему</legend>
+            <label>Логін: <input type="text" class="pole2" name="login"  placeholder="Логін"></label>
+            <label>Пароль: <input type="text" class="pole2" name="password" placeholder="Пароль"></label>
+        </fieldset>
+       
+    </form>
+</body>
+</html>
