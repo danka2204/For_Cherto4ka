@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+    body{
+        display: flex;    
+        flex-direction: column;    
+    }
+    header{
+        background-color: chartreuse;
+        flex-basis: 20vh;
+    }
+    footer{
+        background-color: chartreuse;
+        flex-basis: 20vh;
+    }
+    nav{
+        background-color: bisque;
+        flex-basis: 20vh;
+        height: 60vh;
+    }
+    aside{
+        background-color: bisque;
+        flex-basis: 20vh;
+         height: 60vh;
+    }
+    main{
+        display: flex;
+    }
+    article{
+        flex-grow: 1;
+         height: 60vh;
+    }
+    </style>
+
+<body>
+    <header>
+        Шапка сайту
+    </header>
+    <main>
+        <nav>
+            Навігація
+        </nav>
+        <article>
+            Основний контент
+        </article>
+        <aside>
+            Панель
+        </aside>
+    </main>
+    <footer>
+        Подвал
+    </footer>
+</body>
+</html>

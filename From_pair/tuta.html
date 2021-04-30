@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main_block{
+            display: flex;
+            height: 100vh;
+            background-color: lightgrey;
+            justify-content: space-around;
+            align-content: space-around;
+            flex-wrap: wrap;
+        }
+        .all{
+            width: 100px;
+        }   
+        .first{
+            background-color: rgb(67, 221, 208);
+            height: 180px;
+            justify-content: space-around;
+            align-items: flex-start;
+            order: 2;
+        }
+        .second{
+            background-color: rgb(214, 107, 45);
+             height: 150px;
+            order: 3;
+        }
+        .third{
+            background-color: rgb(140, 57, 235);
+            height: 180px;
+            order: 4;
+        }
+        .fourth{
+            background-color: rgb(175, 221, 67);
+             height: 140px;
+             order: 1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="main_block">
+        <div class="first all">
+        1
+        </div>
+        <div class="second all">
+        2
+        </div>
+        <div class="third all">
+        3
+        </div>
+        <div class="fourth all">
+        4
+        </div>    
+    </div>
+    
+
+</body>
+</html>
